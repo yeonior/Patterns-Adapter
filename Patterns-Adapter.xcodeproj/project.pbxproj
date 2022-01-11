@@ -17,6 +17,7 @@
 		A24AF87A278CB10100C56FF8 /* TwitterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24AF879278CB10100C56FF8 /* TwitterAuth.swift */; };
 		A24AF87D278CB58100C56FF8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24AF87C278CB58100C56FF8 /* AuthService.swift */; };
 		A24AF87F278CB7B900C56FF8 /* GoogleAuthAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24AF87E278CB7B900C56FF8 /* GoogleAuthAdapter.swift */; };
+		A2A23022278DC86E00FF95E3 /* TwitterAuthAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A23021278DC86E00FF95E3 /* TwitterAuthAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A24AF879278CB10100C56FF8 /* TwitterAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAuth.swift; sourceTree = "<group>"; };
 		A24AF87C278CB58100C56FF8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		A24AF87E278CB7B900C56FF8 /* GoogleAuthAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthAdapter.swift; sourceTree = "<group>"; };
+		A2A23021278DC86E00FF95E3 /* TwitterAuthAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAuthAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				A24AF87E278CB7B900C56FF8 /* GoogleAuthAdapter.swift */,
+				A2A23021278DC86E00FF95E3 /* TwitterAuthAdapter.swift */,
 			);
 			path = Adapter;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2008423278B847400C963F1 /* ViewController.swift in Sources */,
+				A2A23022278DC86E00FF95E3 /* TwitterAuthAdapter.swift in Sources */,
 				A200841F278B847400C963F1 /* AppDelegate.swift in Sources */,
 				A24AF878278CAFC800C56FF8 /* GoogleAuth.swift in Sources */,
 				A24AF87D278CB58100C56FF8 /* AuthService.swift in Sources */,
