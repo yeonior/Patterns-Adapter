@@ -16,6 +16,7 @@
 		A24AF878278CAFC800C56FF8 /* GoogleAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24AF877278CAFC800C56FF8 /* GoogleAuth.swift */; };
 		A24AF87A278CB10100C56FF8 /* TwitterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24AF879278CB10100C56FF8 /* TwitterAuth.swift */; };
 		A24AF87D278CB58100C56FF8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24AF87C278CB58100C56FF8 /* AuthService.swift */; };
+		A24AF87F278CB7B900C56FF8 /* GoogleAuthAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24AF87E278CB7B900C56FF8 /* GoogleAuthAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A24AF877278CAFC800C56FF8 /* GoogleAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuth.swift; sourceTree = "<group>"; };
 		A24AF879278CB10100C56FF8 /* TwitterAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAuth.swift; sourceTree = "<group>"; };
 		A24AF87C278CB58100C56FF8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		A24AF87E278CB7B900C56FF8 /* GoogleAuthAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				A200841E278B847400C963F1 /* AppDelegate.swift */,
 				A2008420278B847400C963F1 /* SceneDelegate.swift */,
+				A2A23020278DC83300FF95E3 /* Adapter */,
 				A24AF87B278CB16900C56FF8 /* Auth */,
 				A2008422278B847400C963F1 /* ViewController.swift */,
 				A2008424278B847400C963F1 /* Main.storyboard */,
@@ -82,6 +85,14 @@
 				A24AF879278CB10100C56FF8 /* TwitterAuth.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		A2A23020278DC83300FF95E3 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				A24AF87E278CB7B900C56FF8 /* GoogleAuthAdapter.swift */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 				A24AF878278CAFC800C56FF8 /* GoogleAuth.swift in Sources */,
 				A24AF87D278CB58100C56FF8 /* AuthService.swift in Sources */,
 				A24AF87A278CB10100C56FF8 /* TwitterAuth.swift in Sources */,
+				A24AF87F278CB7B900C56FF8 /* GoogleAuthAdapter.swift in Sources */,
 				A2008421278B847400C963F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

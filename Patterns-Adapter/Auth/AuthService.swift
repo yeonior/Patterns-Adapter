@@ -19,6 +19,6 @@ public struct Token {
 public protocol AuthService {
     func login(email: String,
                password: String,
-               success: @escaping (User?, Token) -> Void,
+               success: @escaping (User, Token) -> Void,
                failure: @escaping (Error?) -> Void)
 }
