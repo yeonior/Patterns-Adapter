@@ -24,7 +24,7 @@ class GoogleAuthAdapter: AuthService {
             }
             
             let user = User(email: currentUser.email, password: currentUser.password)
-            let token = Token(token: currentUser.token)
+            let token = Token(value: currentUser.token)
             success(user, token)
         }
     }

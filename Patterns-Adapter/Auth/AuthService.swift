@@ -13,7 +13,7 @@ public struct User {
 }
 
 public struct Token {
-    public let token: String
+    public let value: String
 }
 
 public protocol AuthService {
